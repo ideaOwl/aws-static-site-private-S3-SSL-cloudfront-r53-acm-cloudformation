@@ -3,7 +3,7 @@
 Single template creates the infrastructure for a static website in AWS, including www to root from scratch in minutes. If you have static sites hosted elsewhere like MediaTemple, this is for you.
 
 Features:
-- SSL certificate for HTTPS with recommended TLSv1.2_2021
+- SSL wildcard (\*.domain + root) certificate for HTTPS with recommended TLSv1.2_2021
 - S3 Bucket 
   - Private, only CloudFront accesses bucket contents
   - Single bucket for root and www domain access
